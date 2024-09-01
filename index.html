@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRABALHO</title>
+    <!--Optei por fazer um Css e Java imbutido ao inves de criar ele separado-->
+
+    <style>
+
+        /* parte de estrutura do site */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0px;
+            padding: 0px;
+            scroll-behavior: smooth;
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        h2 {
+            margin-bottom: auto;
+            text-align: center;
+            color: #333;
+            
+        }
+          
+        .link-list {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .link-list li {
+            margin: 10px 0;
+        }
+
+        .link-list a {
+            text-decoration: none;
+            font-size: 18px;
+            color: #3498db;
+            transition: color 0.3s;
+        }
+
+        .link-list a:hover {
+            color: #2980b9;
+        }
+
+              /* Estilos do cabeçalho */
+        header {
+            background-color: #3498db;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+
+        header a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+            transition: color 0.3s;
+        }
+
+        header a:hover {
+            color: #2980b9;
+        }
+
+        
+        pre {
+         font-size:  20px;
+         text-align: center;   
+         position: absolute;
+        
+        }
+        
+     
+
+        /* Espaço extra no início para compensar o cabeçalho fixo */
+        .spacer {
+            height:500px;
+        }
+
+
+                /* Estilos das seções */
+                section {
+                    height: auto;
+                    min-height:650px;
+                    padding: 20px;
+                    margin: 20px auto;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 24px;
+                    text-align: center;
+                    flex-direction: column;
+                    border-radius: 10px;
+                }
+                #section1 {
+                    background-color: #f4f4f4;
+                }
+        
+                #section2 {
+                    background-color: #eaeaea;
+                    align-items: center;
+                }
+        
+                #section3 {
+                    background-color: #ddd;
+                }
+        
+                #section4 {
+                    background-color: #ccc;
+                }
+
+              
+            
+    /* Estilos gerais para o formulário */
+    form {
+        background-color: #ffffff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        max-width: 400px;
+        margin: 0 auto;
+    }
+
+    label {
+        font-size: 16px;
+        font-weight: bold;
+        color: #333;
+        margin-bottom: 8px;
+        display: block;
+    }
+
+    input[type="text"],
+    input[type="tel"],
+    input[type="email"] {
+        width: 100%;
+        padding: 10px;
+        margin: 8px 0 16px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        font-size: 16px;
+        font-family: Arial, sans-serif;
+    }
+
+    input[type="submit"] {
+        background-color: #3498db;
+        color: white;
+        border: none;
+        padding: 12px 20px;
+        text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+   
+
+        <!--Cabeçalho-->
+        <header>
+            <a href="#section1">Sobre Mim</a>
+            <a href="#section2">Formação</a>
+            <a href="#section3">Portfólio</a>
+            <a href="#section4">Contato</a>
+        </header>
+        
+        <!-- Espaço para compensar o cabeçalho fixo -->
+        <div class="spacer">
+    
+        <!-- Seções do conteúdo -->
+        <section id="section1">
+            <h2>Sobre Mim</h2>
+            <pre> 
+                     Meu nome é :<strong> Nicolas de Souza Duarte</strong>, tenho 25 anos, trabalho com Vendas. <br>
+                     Aos Domingo quando não estou estudando gosto de jogar bola como um hobby para não ficar sempre na mesma rotina <br>
+                     e conseguir me destrair um pouco, Alem de ser uma pessoa caseira de não gostar de sair tanto para festa!<br>
+                     Sempre gostei da área da tecnlogia, mas não tinha muito interesse até eu fazer um curso simples e básico,<br>
+                     ali foi aonde eu gostei e quis seguir nesse área que sempre foi promissora.
+            
+            </pre>
+        </section>
+    
+        <section id="section2">
+            <h2>Formação</h2>
+            <pre>
+                Eu me formei na escola E.E. Antônio Raposo Tavares (CENEART)  2016<br>
+                Curso Técnico de informática em 2024 (Formado)  <br>
+                Atualmente Cursando Ánalise  desenvolvimento de Sistema - Universidade Uninter-
+
+      <strong>Curso básicos. <br></strong> 
+            º INFORMATICA BASICA - 2010<br>
+                º HTLM E CSS – 33H – FUNDAÇAO BRADESCO 2022<br>
+                º PROGRAMAÇÃO DE SISTEMA E WEB – 60HR – FUNDAÇÃO BRADESCO – 2022<br>
+                º LOGICA E PRATICA DE PROGRAMAÇÃO 50HR –FUNDADO BRADESCO - 2022 <br>
+            </pre>
+        </section>
+    
+        <section id="section3">
+            <h2>Portfólio</h2>
+            <p style=>Esse foi um Trabalho de desenvolvimento de um Site que fiz para o SENAC. Mostrarei tanto a parte visual tanto uma parte do código </p>
+                <!--Colando imagem de demosntração-->
+                <img src="/img/imgport.png" style="width: 900px;" >
+                <img src="/img/imgsite.png" style="width: 900px;">
+            
+        </section>
+    
+        <section id="section4">
+            <h2>Contato</h2>
+            <!--Formulario de C0ntato -->
+            
+            <form action="#" method="post">
+                <label for="nome">Nome:</label><br>
+                <input type="text" id="nome" name="nome" placeholder="Seu nome" required><br><br>
+            
+                <label for="telefone">Telefone:</label><br>
+                <input type="tel" id="telefone" name="telefone" placeholder="Seu telefone" required><br><br>
+            
+                <label for="email">E-mail:</label><br>
+                <input type="email" id="email" name="email" placeholder="Seu e-mail" required><br><br>
+            
+                <input type="submit" value="Enviar">
+            </form>
+       </section>
+    </div>
+
+
+
+
+</body>
+</html>
